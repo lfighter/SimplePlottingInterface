@@ -37,4 +37,6 @@ with gr.Blocks() as demo:
     image_button.click(flip_image, inputs=image_input, outputs=image_output)
     image_button_sepia.click(sepia, inputs=image_input, outputs=image_output)
 
-demo.launch()
+
+def main():
+    demo.launch()
